@@ -1,0 +1,330 @@
+body,
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.fon {
+    /* background-color: grey; */
+    color: black;
+}
+
+.container {
+    /* padding: auto; */
+}
+
+#header {
+    background-color: grey;
+    /* border-bottom: 5px solid black; */
+}
+
+#header h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px 0;
+    display: inline-block;
+
+
+}
+
+.navbar {
+    float: right;
+
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+.navbar li a:hover {
+    color: blue;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+    .navbar .nav-content {
+      display: none;
+    }
+    .navbar.responsive .nav-content {
+      display: block;
+      width: 100%;
+    }
+    .navbar.responsive .nav-content li {
+      text-align: center;
+    }
+  }
+
+
+
+.container {
+    /* height: 100%; */
+    width: 70%;
+    margin: auto;
+}
+
+#banner {
+    height: 80vh;
+    background-color: grey;
+    color: white;
+    background-image: url(../images/polat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#banner h1 {
+    font-size: 56px;
+    margin-bottom: 25px;
+    padding-top: 150px;
+}
+
+#banner1 {
+    height: 60vh;
+    background-image: url(../images/webpc-passthru.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: grey;
+
+}
+
+
+
+#banner2 {
+    height: 100vh;
+    background-image: url(../images/IT.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed;     */
+
+}
+
+
+
+
+#banner3 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/contacts.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #35424a;
+    color: #fff;
+    float: right;
+    /* text-align: center; */
+}
+
+.icons {
+    font-size: 70px;
+    color: white;
+    display: flex;
+    gap: 300px;
+    margin-top: 300px;
+    margin-left: 350px;
+}
+
+.instagram{
+    color: #FF6969;
+}
+
+.telegram {
+    color: #03aee2;
+
+}
+
+.facebook {
+    color: #453F78;
+
+}
+
+
+
+
+/* #banner4 {
+    height: 80vh;
+    background-image: url(../images/gallery.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+
+#newsletter {
+    /* background-color: #35424a; */
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+#newsletter .left {
+    float: left;
+
+}
+
+#newsletter .right {
+    float: right;
+
+}
+
+#newsletter input {
+    padding: 5px;
+}
+
+.button {
+    padding: 5px 15px;
+    border: none;
+    background-color: coral;
+    color: #fff;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: blue;
+}
+
+.courses {
+    padding: 30px 0;
+
+}
+
+.box {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.box img {
+    max-width: 100%;
+    width: 120px;
+    background-color: grey;
+}
+
+.clr {
+    clear: both;
+}
+
+#footer {
+    padding: 5px 0;
+    text-align: center;
+    background-color: grey;
+    color: #fff;
+    margin: 5px;
+    vertical-align: bottom;
+
+}
+
+.main-content {
+    width: 65%;
+    float: left;
+}
+
+.sidebar {
+    width:30%;
+    float: right;
+
+}
+
+#about-me {
+    /* margin: 40px 0; */
+}
+
+.bg-dark {
+    background-color: #35424a;
+    color: #fff;
+    padding: 10px;
+}
+
+.services-box {
+    padding: 30px;
+    margin: 15px;
+    background-color: #e5e5e5;
+    border: 1px solid #555;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+.form-input.textarea {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.active {
+    color: blue !important;
+}
+.carousel-container {
+    margin: auto;
+    width: 70%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide {
+    display: none;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+}
+
+/* Optional: Style for navigation buttons */
+.carousel-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    /* z-index: 100; */
+}
+
+.carousel-nav button {
+    cursor: pointer;
+    padding: 8px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin-right: 5px;
+}
+.carousel-slide img{
+    width: 70%;
+    height: 55%;
+}
+.allIn{
+    display: flex;
+}
+.bodr{
+    background: grey;
+}
+.fon1 {
+    background-color: #747264;
+    color: #fff;
+}
